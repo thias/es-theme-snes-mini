@@ -5,30 +5,80 @@ author:			ruckage
 -->
 
 <theme>
-    <formatVersion>3</formatVersion>
-	
+    <formatVersion>7</formatVersion>
+
 <!-- Choose your layout ()see ## LAYOUT GUIDE ##.png) -->
-	<include>./layouts/a.xml</include>
-	
-<!-- Choose how number of players is displayed (icon or text) -->	
-	<include>./players/icon.xml</include>	
-	
-<!-- Choose your rating symbol (heart or bead) -->	
-	<include>./rating/heart.xml</include>	
+	<include subset="layout" name="a">./layouts/a.xml</include>
+	<include subset="layout" name="b">./layouts/b.xml</include>
+	<include subset="layout" name="c">./layouts/c.xml</include>
+	<include subset="layout" name="d">./layouts/d.xml</include>
+	<include subset="layout" name="e">./layouts/e.xml</include>
+	<include subset="layout" name="f">./layouts/f.xml</include>
+	<include subset="layout" name="g">./layouts/g.xml</include>
+	<include subset="layout" name="h">./layouts/h.xml</include>
+	<include subset="layout" name="i">./layouts/i.xml</include>
+	<include subset="layout" name="j">./layouts/j.xml</include>
+	<include subset="layout" name="k">./layouts/k.xml</include>
+	<include subset="layout" name="l">./layouts/l.xml</include>
+	<include subset="layout" name="m">./layouts/m.xml</include>
+	<include subset="layout" name="n">./layouts/n.xml</include>
+	<include subset="layout" name="o">./layouts/o.xml</include>
+	<include subset="layout" name="p">./layouts/p.xml</include>
+	<include subset="layout" name="q">./layouts/q.xml</include>
+	<include subset="layout" name="r">./layouts/r.xml</include>
+	<include subset="layout" name="s">./layouts/s.xml</include>
+	<include subset="layout" name="t">./layouts/t.xml</include>
+	<include subset="layout" name="u">./layouts/u.xml</include>
+	<include subset="layout" name="v">./layouts/v.xml</include>
+	<include subset="layout" name="w">./layouts/w.xml</include>
+	<include subset="layout" name="x">./layouts/x.xml</include>
+	<include subset="layout" name="no meta a">./layouts/no_meta_a.xml</include>
+	<include subset="layout" name="no meta b">./layouts/no_meta_b.xml</include>
+	<include subset="layout" name="no meta c">./layouts/no_meta_c.xml</include>
+	<include subset="layout" name="no meta d">./layouts/no_meta_d.xml</include>
+	<include subset="layout" name="no meta e">./layouts/no_meta_e.xml</include>
+	<include subset="layout" name="no meta f">./layouts/no_meta_f.xml</include>
+	<include subset="layout" name="no meta g">./layouts/no_meta_g.xml</include>
 
-<!-- Choose your background (For the available options see the jpg files named ## BACKGROUND GUIDE ##) -->	
-    <include>./background/neon_blue_spectrum.xml</include>	
-	
-<!-- Choose your theme style (snes_europe or snes_usa or nes_rich_europe or nes_rich_usa or nes_simple_europe or nes_simple_usa) -->	
-	<include>./style/snes_europe.xml</include>	
-	
-<!-- Choose your resolution -->	
-	<include>./layouts/1920x1080.xml</include> <!-- supported resolutions 640x480, 800x600, 1024x768, 1280x720, 1280x960, 1366x768, 1440x1080, 1920x1080, ntsc, pal -->
+<!-- Choose how number of players is displayed (icon or text) -->
+	<include subset="players" name="icon">./players/icon.xml</include>
+	<include subset="players" name="text">./players/text.xml</include>
 
-<!-- Choose font size used in the gamelist (big or small) -->	
-	<include>./list-font/big.xml</include>	
+<!-- Choose your rating symbol (heart or bead) -->
+	<include subset="rating" name="heart">./rating/heart.xml</include>
+	<include subset="rating" name="bead">./rating/bead.xml</include>
 
-<!-- Choose text alignment for the game list (left-align, center-align, right-align)-->	
-	<include>./list-font/left-align.xml</include>			
+<!-- Choose your background (For the available options see the jpg files named ## BACKGROUND GUIDE ##) -->
+	<include subset="background" name="neon blue spectrum">./background/neon_blue_spectrum.xml</include>
+
+<!-- Choose your theme style (snes_europe or snes_usa or nes_rich_europe or nes_rich_usa or nes_simple_europe or nes_simple_usa) -->
+	<include subset="style" name="snes europe">./style/snes_europe.xml</include>
+	<include subset="style" name="snes usa">./style/snes_usa.xml</include>
+	<include subset="style" name="nes rich europe">./style/nes_rich_europe.xml</include>
+	<include subset="style" name="nes rich usa">./style/nes_rich_usa.xml</include>
+	<include subset="style" name="nes simple europe">./style/nes_simple_europe.xml</include>
+	<include subset="style" name="nes simple usa">./style/nes_simple_usa.xml</include>
+
+<!-- Choose your resolution -->
+	<!-- supported resolutions 640x480, 800x600, 1024x768, 1280x720, 1280x960, 1366x768, 1440x1080, 1920x1080, ntsc, pal -->
+	<include subset="resolution" name="1920x1080">./layouts/1920x1080.xml</include>
+	<include subset="resolution" name="1440x1080">./layouts/1440x1080.xml</include>
+	<include subset="resolution" name="1366x768">./layouts/1366x768.xml</include>
+	<include subset="resolution" name="1280x960">./layouts/1280x960.xml</include>
+	<include subset="resolution" name="1280x720">./layouts/1280x720.xml</include>
+	<include subset="resolution" name="1024x768">./layouts/1024x768.xml</include>
+	<include subset="resolution" name="800x600">./layouts/800x600.xml</include>
+	<include subset="resolution" name="640x480">./layouts/640x480.xml</include>
+	<include subset="resolution" name="ntsc">./layouts/ntsc.xml</include>
+	<include subset="resolution" name="pal">./layouts/pal.xml</include>
+
+<!-- Choose font size used in the gamelist (big or small) -->
+	<include subset="game list font size" name="big">./list-font/big.xml</include>
+	<include subset="game list font size" name="small">./list-font/small.xml</include>
+
+<!-- Choose text alignment for the game list (left-align, center-align, right-align)-->
+	<include subset="text align" name="left">./list-font/left-align.xml</include>
+	<include subset="text align" name="center">./list-font/center-align.xml</include>
+	<include subset="text align" name="right">./list-font/right-align.xml</include>
 
 </theme>
