@@ -50,6 +50,53 @@ author:			ruckage
 
 <!-- Choose your background (For the available options see the jpg files named ## BACKGROUND GUIDE ##) -->
 	<include subset="background" name="neon blue spectrum">./background/neon_blue_spectrum.xml</include>
+	<include subset="background" name="neon blue spectrum blur">./background/neon_blue_spectrum_blur.xml</include>
+	<include subset="background" name="neon aqua">./background/neon_aqua.xml</include>
+	<include subset="background" name="neon aqua blur">./background/neon_aqua_blur.xml</include>
+	<include subset="background" name="neon black red">./background/neon_black_red.xml</include>
+	<include subset="background" name="neon black red blur">./background/neon_black_red_blur.xml</include>
+	<include subset="background" name="neon black spectrum">./background/neon_black_spectrum.xml</include>
+	<include subset="background" name="neon black spectrum blur">./background/neon_black_spectrum_blur.xml</include>
+	<include subset="background" name="neon blue">./background/neon_blue.xml</include>
+	<include subset="background" name="neon blue blur">./background/neon_blue_blur.xml</include>
+	<include subset="background" name="neon deep purple">./background/neon_deep_purple.xml</include>
+	<include subset="background" name="neon deep purple blur">./background/neon_deep_purple_blur.xml</include>
+	<include subset="background" name="neon green">./background/neon_green.xml</include>
+	<include subset="background" name="neon green blur">./background/neon_green_blur.xml</include>
+	<include subset="background" name="neon grey">./background/neon_grey.xml</include>
+	<include subset="background" name="neon grey blur">./background/neon_grey_blur.xml</include>
+	<include subset="background" name="neon hot pink">./background/neon_hot_pink.xml</include>
+	<include subset="background" name="neon hot pink blur">./background/neon_hot_pink_blur.xml</include>
+	<include subset="background" name="neon lime">./background/neon_lime.xml</include>
+	<include subset="background" name="neon lime blur">./background/neon_lime_blur.xml</include>
+	<include subset="background" name="neon magma">./background/neon_magma.xml</include>
+	<include subset="background" name="neon magma blur">./background/neon_magma_blur.xml</include>
+	<include subset="background" name="neon mustard">./background/neon_mustard.xml</include>
+	<include subset="background" name="neon mustard blur">./background/neon_mustard_blur.xml</include>
+	<include subset="background" name="neon peach">./background/neon_peach.xml</include>
+	<include subset="background" name="neon peach blur">./background/neon_peach_blur.xml</include>
+	<include subset="background" name="neon pink">./background/neon_pink.xml</include>
+	<include subset="background" name="neon pink blur">./background/neon_pink_blur.xml</include>
+	<include subset="background" name="neon pink blue">./background/neon_pink_blue.xml</include>
+	<include subset="background" name="neon pink blue blur">./background/neon_pink_blue_blur.xml</include>
+	<include subset="background" name="neon purple">./background/neon_purple.xml</include>
+	<include subset="background" name="neon purple blur">./background/neon_purple_blur.xml</include>
+	<include subset="background" name="neon purple green">./background/neon_purple_green.xml</include>
+	<include subset="background" name="neon purple green blur">./background/neon_purple_green_blur.xml</include>
+	<include subset="background" name="neon white blue">./background/neon_white_blue.xml</include>
+	<include subset="background" name="neon white blue blur">./background/neon_white_blue_blur.xml</include>
+	<include subset="background" name="neon white spectrum">./background/neon_white_spectrum.xml</include>
+	<include subset="background" name="neon white spectrum blur">./background/neon_white_spectrum_blur.xml</include>
+	<include subset="background" name="neon yellow blue">./background/neon_yellow_blue.xml</include>
+	<include subset="background" name="neon yellow blue blur">./background/neon_yellow_blue_blur.xml</include>
+	<include subset="background" name="nes mini">./background/nes_mini.xml</include>
+	<include subset="background" name="blurred shots">./background/blurred_shots.xml</include>
+	<include subset="background" name="blurred shots light">./background/blurred_shots_light.xml</include>
+	<include subset="background" name="blurred shots dark">./background/blurred_shots_dark.xml</include>
+	<include subset="background" name="blurred shots black vignette">./background/blurred_shots_black_vignette.xml</include>
+	<include subset="background" name="blurred shots white vignette">./background/blurred_shots_white_vignette.xml</include>
+	<include subset="background" name="chalk">./background/chalk.xml</include>
+	<include subset="background" name="chalk color">./background/chalk_color.xml</include>
 
 <!-- Choose your theme style (snes_europe or snes_usa or nes_rich_europe or nes_rich_usa or nes_simple_europe or nes_simple_usa) -->
 	<include subset="style" name="snes europe">./style/snes_europe.xml</include>
